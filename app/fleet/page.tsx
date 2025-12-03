@@ -105,7 +105,7 @@ export default function FleetPage() {
         </div> */}
 
         {/* Main Content - Two Column Grid with Aligned Bottoms */}
-        <div className="grid lg:grid-cols-2 gap-4 mb-6">
+        <div className="grid md:grid-cols-2 gap-4 mb-6">
           {/* Left: Fleet Map + Breakdown Below */}
           <div className="space-y-4">
             <DubaiMapFleet 
