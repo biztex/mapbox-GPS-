@@ -80,7 +80,7 @@ export default function FleetMetricsCompact({ data }: { data: FleetData }) {
           <h2 className="text-sm font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-600 to-orange-600">
             Today's Performance
           </h2>
-          <p className="text-[9px] text-gray-600 dark:text-gray-400">{currentTime}</p>
+          <p className="text-[9px] text-white">{currentTime}</p>
         </div>
         <div className="text-right">
           <div className="flex items-center gap-1 text-[8px] text-gray-600 dark:text-gray-400">
