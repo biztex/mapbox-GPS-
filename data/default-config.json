@@ -1,0 +1,81 @@
+{
+  "tiers": [
+    {
+      "id": 1,
+      "name": "NexEconomy",
+      "minTokens": 1,
+      "maxTokens": 100000,
+      "baseBonus": 1.00,
+      "proportionalMultiplier": 5,
+      "minROI": 1.00,
+      "maxROI": 2.00,
+      "threshold": 100000,
+      "color": "#3b82f6",
+      "description": null
+    },
+    {
+      "id": 2,
+      "name": "NexComfort",
+      "minTokens": 100001,
+      "maxTokens": 350000,
+      "baseBonus": 1.00,
+      "proportionalMultiplier": 5,
+      "minROI": 2.20,
+      "maxROI": 2.75,
+      "threshold": 350000,
+      "color": "#10b981",
+      "description": null
+    },
+    {
+      "id": 3,
+      "name": "NexXL",
+      "minTokens": 350001,
+      "maxTokens": 800000,
+      "baseBonus": 1.00,
+      "proportionalMultiplier": 5,
+      "minROI": 3.25,
+      "maxROI": 4.00,
+      "threshold": 800000,
+      "color": "#8b5cf6",
+      "description": null
+    },
+    {
+      "id": 4,
+      "name": "NexLuxury",
+      "minTokens": 800001,
+      "maxTokens": 1750000,
+      "baseBonus": 1.00,
+      "proportionalMultiplier": 5,
+      "minROI": 4.50,
+      "maxROI": 5.00,
+      "threshold": 1750000,
+      "color": "#f59e0b",
+      "description": null
+    },
+    {
+      "id": 5,
+      "name": "NexPartner",
+      "minTokens": 1750001,
+      "maxTokens": null,
+      "baseBonus": 5.00,
+      "proportionalMultiplier": 0,
+      "minROI": 5.00,
+      "maxROI": 5.00,
+      "threshold": null,
+      "color": "#ef4444",
+      "description": "More benefits - contact us for more info"
+    }
+  ],
+  "usdPackages": [
+    { "usd": 100, "tokens": 5200 },
+    { "usd": 300, "tokens": 16000 },
+    { "usd": 500, "tokens": 28000 },
+    { "usd": 1000, "tokens": 56400 },
+    { "usd": 2500, "tokens": 142000 },
+    { "usd": 5000, "tokens": 288000 },
+    { "usd": 7000, "tokens": 426000 },
+    { "usd": 10000, "tokens": 650000 },
+    { "usd": 25000, "tokens": 1750000 },
+    { "usd": 50000, "tokens": 3500000 }
+  ]
+}
